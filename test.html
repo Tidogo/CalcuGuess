@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="test.css">
+<script src="test.js"></script>
+<h1>Welcome to CalcuGuess, the terrible calculator guessing game</h1>
+<h2>DESCRIPTION:</h2>
+<P>This "game" will take two whole numbers of the player's choosing and select a random mathematical operator to use.<br>
+The player then has to choose which operator the computer chose to come up with the shown result.</p>
+<h2>RULES:</h2>
+<p>1. Must enter whole numbers</p>
+<p>2. AI will only choose the operator that will give a whole number answer</p>
+<form name="userinput" onsubmit="return doCalc()">
+    <label for="fnum">First Number:</label><br>
+    <input type="number" id="fnum" name="fnum"><br>
+    <label for="snum">Second Number:</label><br>
+    <input type="number" id="snum" name="snum"><br>
+    <input type="submit" value="Send to AI">
+</form>
+
+</html>
