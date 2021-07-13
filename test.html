@@ -15,5 +15,18 @@ The player then has to choose which operator the computer chose to come up with 
     <input type="number" id="snum" name="snum"><br>
     <input type="submit" value="Send to AI">
 </form>
+<h2 id="result">RESULT: </h2>
+<h2>GUESS THE OPERATOR</h2>
+<form name="guessoperator" onsubmit="return verifyTrue()">
+    <label for="add">Addition</label><br>
+    <input type="radio" id="add" name="add"><br>
+    <label for="sub">Subtraction</label><br>
+    <input type="radio" id="sub" name="sub"><br>
+    <label for="mult">Multiplication</label><br>
+    <input type="radio" id="mult" name="mult"><br>
+    <label for="div">Division</label><br>
+    <input type="radio" id="div" name="div"><br>
+</form>
+
 
 </html>
