@@ -1,3 +1,6 @@
+<!--Author: Timothy Goddard-->
+<!--Description: HTML file for CalcuGuess. Contains structure of site used in the guessing game.-->
+<!--Date: 07/13/2021-->
 <!DOCTYPE html>
 <link rel="stylesheet" href="test.css">
 <script src="test.js"></script>
@@ -17,15 +20,17 @@ The player then has to choose which operator the computer chose to come up with 
 </form>
 <h2 id="result">RESULT: </h2>
 <h2>GUESS THE OPERATOR</h2>
-<form name="guessoperator" onsubmit="return verifyTrue()">
+<form name="guessoperator">
     <label for="add">Addition</label><br>
-    <input type="radio" id="add" name="add"><br>
+    <input type="radio" value="1" id="" name="op"><br>
     <label for="sub">Subtraction</label><br>
-    <input type="radio" id="sub" name="sub"><br>
+    <input type="radio" value="2" name="op"><br>
     <label for="mult">Multiplication</label><br>
-    <input type="radio" id="mult" name="mult"><br>
+    <input type="radio" value="3" name="op"><br>
     <label for="div">Division</label><br>
-    <input type="radio" id="div" name="div"><br>
+    <input type="radio" value="4" name="op"><br>
+    <label for="Guess">Submit Guess</label>
+    <input type="button" id="go" onclick="checkOp()">
 </form>
 
 
