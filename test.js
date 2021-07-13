@@ -19,7 +19,7 @@ function doCalc() {
     }
     while (result == 0.1)
     //alert(result.toString() + " | " + operator.toString());
-    document.getElementById("result").innerHTML = "RESULT: " + result.toString();
+    document.getElementById("result").innerHTML =  "RESULT: " + result;
 }
 
 //function checkWhole()
